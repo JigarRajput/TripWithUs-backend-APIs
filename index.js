@@ -1,4 +1,3 @@
-//Jai Ganesh
 const express = require('express');
 const hotels = require('./hotels');
 const {
