@@ -1,5 +1,5 @@
+//Jai Ganesh
 const express = require('express');
-const { resolve } = require('path');
 const hotels = require('./hotels');
 const {
   sortByPricing,
@@ -12,9 +12,8 @@ const {
 const cors = require('cors');
 
 const app = express();
-app.use(cors());
-
 const port = 3010;
+app.use(cors());
 
 // Get hotels sorted by pricing endpoint
 app.get('/hotels/sort/pricing', (req, res) => {
