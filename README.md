@@ -129,4 +129,9 @@ TripWithUs allows users to filter hotel listings based on the following:
    4. Start the server: `node index.js`
 
    5. Access the application at: `http://localhost:3010`
+
+---
+If you want to try it live, here is the url: [`https://trip-with-us-backend-apis.vercel.app/hotels`](https://trip-with-us-backend-apis.vercel.app/hotels)
+---
+Made with ❤️ by Jigar 
     

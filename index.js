@@ -1,5 +1,3 @@
-// Jai Ganesh
-
 const express = require('express');
 const { resolve } = require('path');
 const hotels = require('./hotels');
