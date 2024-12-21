@@ -9,8 +9,11 @@ const {
   filterByCountry,
   filterByCategory,
 } = require('./utils.js');
+const cors = require('cors');
 
 const app = express();
+app.use(cors());
+
 const port = 3010;
 
 // Get hotels sorted by pricing endpoint
